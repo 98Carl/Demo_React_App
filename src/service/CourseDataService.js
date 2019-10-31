@@ -32,11 +32,12 @@ class CourseDataService {
   
     }
   
-    
+
     createCourse(name, course) {
         return axios.post(`${INSTRUCTOR_API_URL}/courses/`, course);
   
     }
+
 
 }
 
